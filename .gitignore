@@ -1,0 +1,20 @@
+# Ignore all node_modules folders in any subdirectory
+node_modules/
+
+# Ignore build or distribution folders in all subdirectories
+dist/
+build/
+
+# Ignore log files in all subdirectories
+*.log
+
+# Ignore environment files for sensitive data
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore cache folders (for frameworks like Next.js)
+.cache/
+.next/
